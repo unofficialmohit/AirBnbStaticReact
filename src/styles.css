@@ -1,0 +1,66 @@
+.nav{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.nav-logo{
+    height: 40px;
+}
+.heroDiv{
+    text-align: center;
+    
+}
+.hero{
+    max-width: 1200px;
+    padding-top: 30px;
+}
+.hero--header {
+    padding-left: 20px;
+    font-size: 40dp;
+}
+.hero--text{
+    padding-left: 30px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.star{
+    display: flex;
+    align-items: center;
+}
+.rating{
+    padding-left: 4px;
+}
+.country{
+    margin-left: 5px;
+    color: gray;
+}
+.price-section{
+    display: flex;
+}
+.price{
+    font-weight: bold
+}
+.player{
+    border-radius: 7%;
+    width:250px;
+}
+.card-container{
+    display: flex;
+    overflow: scroll;
+    margin-bottom: 40px;
+}
+.card{
+    margin: 20px;
+    position: relative;
+}
+.badge{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+    font-weight: bold;
+    padding-inline: 3px;
+    padding-block: 2px;
+}
